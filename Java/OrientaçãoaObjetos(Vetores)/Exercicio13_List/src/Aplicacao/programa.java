@@ -11,6 +11,7 @@ public class programa {
         Scanner sc = new Scanner(System.in);
         funcionarios funcionarios;
         List<funcionarios> list = new ArrayList<>();
+        int verificacao = 0;
 
         int retorno = 0;
 
@@ -18,7 +19,7 @@ public class programa {
         int N = sc.nextInt();
 
         for (int i = 0; i < N; i++) {
-            System.out.printf("Funcinario #%d\n\n", i+1);
+            System.out.printf("\nFuncionario #%d\n", i+1);
             System.out.print("ID: ");
             Integer id = sc.nextInt();
 
@@ -38,17 +39,28 @@ public class programa {
             list.add(funcionarios);
         }
 
-        System.out.print("Digite o ID do funcionario que tera aumento: ");
+        System.out.print("\nDigite o ID do funcionario que tera aumento: ");
         Integer idDigitado = sc.nextInt();
 
-        for (funcionarios lista : list){
-            if (!lista.getId().equals(idDigitado)){
-                retorno = 1;
+        for(funcionarios lista : list){
+            if (lista.getId().equals(idDigitado)){
+                verificacao = 1;
+                System.out.print("Digite a % de aumento: ");
+                Integer aumento = sc.nextInt();
+
+                Double novoSalario = lista.salariocomAumento(aumento);
+                lista.setSalario(novoSalario);
+                break;
             }
         }
 
-        if (retorno == 1){
-            System.out.println("ID nao encontrado, tente novamente: ");
+        if (verificacao == 0){
+            System.out.println("ID não encontrado!\n");
+        }
+
+        System.out.println("Lista de funcionarios: ");
+        for (funcionarios lista: list){
+            System.out.println(lista);
         }
 
     }

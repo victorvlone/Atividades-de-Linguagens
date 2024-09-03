@@ -37,7 +37,12 @@ public class funcionarios {
     }
 
     public String toString(){
-        return "ID do funcionario: " + id + ", nome: " + nome + ", salario: " + salario;
+        return "ID do funcionario: " + id + ", nome: " + nome + ", salario: R$" + salario;
     }
+
+    public Double salariocomAumento(Integer aumento){
+        return getSalario() / 100 * aumento + getSalario();
+    }
+
 
 }

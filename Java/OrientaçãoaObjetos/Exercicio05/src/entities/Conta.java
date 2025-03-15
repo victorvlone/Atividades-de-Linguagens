@@ -1,20 +1,20 @@
 package entities;
 
-public class cliente {
+public class Conta {
 
-    private String nome;
-    private int numero;
-    private double deposito;
+    protected String nome;
+    protected int numero;
+    protected double deposito;
 
-    public cliente() {
+    public Conta() {
     }
 
-    public cliente(int numero, String nome) {
+    public Conta(int numero, String nome) {
         this.numero = numero;
         this.nome = nome;
     }
 
-    public cliente(int numero, String nome, double deposito) {
+    public Conta(int numero, String nome, double deposito) {
         this.deposito = deposito;
         this.nome = nome;
         this.numero = numero;
@@ -44,7 +44,12 @@ public class cliente {
     }
 
     public String toString(){
-        return "Número: " + numero + ", Titular: " + nome + ", Balanço: R$" + String.format("%.2f", deposito);
+        return "Número: " +
+                numero +
+                ", Titular: " +
+                nome +
+                ", Balanço: R$" +
+                String.format("%.2f", deposito);
     }
 
 }

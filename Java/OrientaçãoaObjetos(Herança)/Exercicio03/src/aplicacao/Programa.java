@@ -13,6 +13,7 @@ public class Programa {
 
         Scanner sc = new Scanner(System.in);
         List<Contribuintes> contribuintes = new ArrayList<>();
+        double total = 0;
 
         System.out.print("Digite o numero de contribuintes: ");
         int N = sc.nextInt();
@@ -41,5 +42,13 @@ public class Programa {
                 contribuintes.add(juridica);
             }
         }
+
+        System.out.println("\nIMPOSTOS PAGOS\n");
+        for (Contribuintes list: contribuintes){
+            System.out.println(list);
+
+            total += list.calculodeImpostos();
+        }
+        System.out.printf("\nTOTAL: R$%.2f", total);
     }
 }

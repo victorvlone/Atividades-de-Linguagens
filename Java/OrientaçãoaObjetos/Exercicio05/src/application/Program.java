@@ -1,6 +1,7 @@
 package application;
 
-import entities.cliente;
+import entities.Conta;
+import entities.ContaEmpresarial;
 import java.util.Scanner;
 
 public class Program {
@@ -16,12 +17,22 @@ public class Program {
         System.out.print("1º deposito (Opcional): ");
         double deposito = sc.nextDouble();
 
-        cliente cliente;
+        System.out.print("Conta Empresarial (s/n)? ");
+        char tipoConta = sc.next().charAt(0);
 
-        if (deposito != 0.0){
-            cliente = new cliente(numero, nome, deposito);
-        } else{
-            cliente = new cliente(numero, nome);
+        Conta cliente;
+        ContaEmpresarial contaEmpresarial= null;
+
+        if (tipoConta == 's') {
+            System.out.print("Digite o limite de empréstimo: ");
+            double limiteEmprestimo = sc.nextDouble();
+            contaEmpresarial = new ContaEmpresarial(numero, nome, deposito, limiteEmprestimo);
+        } 
+
+        if (deposito != 0.0) {
+            cliente = new Conta(numero, nome, deposito);
+        } else {
+            cliente = new Conta(numero, nome);
         }
 
         System.out.println("\nDADOS DA CONTA");
@@ -40,6 +51,14 @@ public class Program {
 
         System.out.println("\nDADOS DA CONTA ATUALIZADOS");
         System.out.println(cliente);
+
+        if (tipoConta == 's') {
+            System.out.println("De quanto sera o emprestimo que deseja? ");
+            double valor = sc.nextDouble();
+
+            System.out.println(cliente.toString());
+            System.out.println(contaEmpresarial.limite(valor));
+        }
 
         sc.close();
     }

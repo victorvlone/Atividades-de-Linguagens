@@ -7,14 +7,10 @@ Este repositório contém uma coleção de atividades, desafios e projetos em di
 Atualmente, o repositório inclui atividades em:
 
 - **Python**
-- **JavaScript**
 - **Java**
 - **C++**
-- **Ruby**
-- **Go**
-- **R**
-- **PHP**
-- **Swift**
+- **C#**
+
 - **Outras linguagens (detalhe conforme necessário)**
 
 Cada pasta ou arquivo contém exemplos de código, desafios de programação ou projetos prontos para serem estudados e modificados conforme seu interesse.

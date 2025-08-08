@@ -1,0 +1,15 @@
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/bin/Debug/net8.0/Atividade03
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/bin/Debug/net8.0/Atividade03.deps.json
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/bin/Debug/net8.0/Atividade03.runtimeconfig.json
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/bin/Debug/net8.0/Atividade03.dll
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/bin/Debug/net8.0/Atividade03.pdb
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/obj/Debug/net8.0/Atividade03.GeneratedMSBuildEditorConfig.editorconfig
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/obj/Debug/net8.0/Atividade03.AssemblyInfoInputs.cache
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/obj/Debug/net8.0/Atividade03.AssemblyInfo.cs
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/obj/Debug/net8.0/Atividade03.csproj.CoreCompileInputs.cache
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/obj/Debug/net8.0/Atividade03.sourcelink.json
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/obj/Debug/net8.0/Atividade03.dll
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/obj/Debug/net8.0/refint/Atividade03.dll
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/obj/Debug/net8.0/Atividade03.pdb
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/obj/Debug/net8.0/Atividade03.genruntimeconfig.cache
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaCondicional/Atividade03/obj/Debug/net8.0/ref/Atividade03.dll

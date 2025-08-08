@@ -1,0 +1,15 @@
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/bin/Debug/net8.0/Atividade05
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/bin/Debug/net8.0/Atividade05.deps.json
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/bin/Debug/net8.0/Atividade05.runtimeconfig.json
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/bin/Debug/net8.0/Atividade05.dll
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/bin/Debug/net8.0/Atividade05.pdb
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/obj/Debug/net8.0/Atividade05.GeneratedMSBuildEditorConfig.editorconfig
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/obj/Debug/net8.0/Atividade05.AssemblyInfoInputs.cache
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/obj/Debug/net8.0/Atividade05.AssemblyInfo.cs
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/obj/Debug/net8.0/Atividade05.csproj.CoreCompileInputs.cache
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/obj/Debug/net8.0/Atividade05.sourcelink.json
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/obj/Debug/net8.0/Atividade05.dll
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/obj/Debug/net8.0/refint/Atividade05.dll
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/obj/Debug/net8.0/Atividade05.pdb
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/obj/Debug/net8.0/Atividade05.genruntimeconfig.cache
+/home/victorvlone/Documentos/Atividades-de-Linguagens/C#/EstruturaSequencial/Atividade05/obj/Debug/net8.0/ref/Atividade05.dll
